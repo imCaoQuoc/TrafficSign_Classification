@@ -50,7 +50,7 @@ classes = { 0:'Speed limit (20km/h)',
 
 model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=False)
 
-img = st.file_uploader("Upload your image")
+img = st.sidebar.file_uploader("Upload your image")
 if img is not None:
     image = Image.open(img)
     st.image(image, caption='Your image')
