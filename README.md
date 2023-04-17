@@ -80,6 +80,8 @@ This data 43 classes, which stays for 43 types of traffic sign:
 - `41`:'End of no passing',
 - `42`:'End no passing vehicle > 3.5 tons'
 
+Data has 51869 labeled images, which splitted into 39239 images for training and 12630 images for testing.
+
 ---
 
 ### **NEURAL NETWORK**
