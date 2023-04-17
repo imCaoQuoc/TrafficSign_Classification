@@ -3,7 +3,7 @@
 ---
 
 ### **INTRODUCTION**
-This project is a traffic sign classifier built using Convolutional Neurol Network (CNN). The model is trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which consists of over 50,000 labeled images of 43 different classes of traffic signs. The model is able to classify traffic signs and the demo application allows users to upload an image of a traffic sign and receive a prediction of its class. In the future, I want to improve the project so that it can classify traffic sign in real-time.
+This project is a traffic sign classifier built using Convolutional Neurol Networks (CNNs). The model is trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which consists of over 50,000 labeled images of 43 different classes of traffic signs. The model is able to classify traffic signs and the demo application allows users to upload an image of a traffic sign and receive a prediction of its class. In the future, I want to improve the project so that it can classify traffic sign in real-time.
 
 Technologies I used:
   - [Pillow](https://pypi.org/project/Pillow/) to load an image.
