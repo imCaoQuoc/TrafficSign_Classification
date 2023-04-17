@@ -86,7 +86,7 @@ Data has 51869 labeled images, which splitted into 39239 images for training and
 
 ### **CONVOLUTIONAL NEURAL NETWORK**
 
-The Sequential Model is a type of neural network architecture in which the layers of the network are arranged sequentially, with the output of one layer being the input to the next layer. This type of architecture is commonly used for deep learning tasks such as image and speech recognition, natural language processing, and more.
+Convolutional Neural Networks (CNNs) are a type of deep learning algorithm that have proven to be highly effective in image recognition, classification, and other computer vision tasks. They are inspired by the structure and function of the human visual system, and use a series of convolutional layers to automatically learn and extract features from input images. These features are then processed through a series of fully connected layers, which make predictions about the class of the input image. CNNs have achieved state-of-the-art results in a wide range of applications, including object recognition, facial recognition, and self-driving cars.
 
 In this repository, I provide an example of how to build a sequential model using the TensorFlow library in Python. The model is trained on a [stroke dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset) and used to classify whether someone could be stroke or not.
 
