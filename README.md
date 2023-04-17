@@ -72,13 +72,13 @@ This data 43 classes, which stays for 43 types of traffic sign:
 - `33`:'Turn right ahead',
 - `34`:'Turn left ahead',
 - `35`:'Ahead only',
-- `36`:'Go straight or right',
-- `37`:'Go straight or left',
-- `38`:'Keep right',
-- `39`:'Keep left',
-- `40`:'Roundabout mandatory',
-- `41`:'End of no passing',
-- `42`:'End no passing vehicle > 3.5 tons'
+- `36`: Go straight or right
+- `37`: Go straight or left
+- `38`: Keep right
+- `39`: Keep left
+- `40`: Roundabout mandatory
+- `41`: End of no passing
+- `42`: End no passing vehicle > 3.5 tons
 
 Data has 51869 labeled images, which splitted into 39239 images for training and 12630 images for testing.
 
