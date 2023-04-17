@@ -60,6 +60,6 @@ if img is not None:
     img_array = array_image.reshape((1,) + array_image.shape)
 
     predict = np.argmax(model.predict(img_array), axis=-1)
-    st.write(classes[predict[0]])
+    st.write("Your image is " + classes[predict[0]])
 else:
     st.write("Please upload an image to get a prediction.")
