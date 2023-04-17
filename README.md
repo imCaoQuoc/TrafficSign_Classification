@@ -84,7 +84,7 @@ Data has 51869 labeled images, which splitted into 39239 images for training and
 
 ---
 
-### **NEURAL NETWORK**
+### **CONVOLUTIONAL NEURAL NETWORK**
 
 The Sequential Model is a type of neural network architecture in which the layers of the network are arranged sequentially, with the output of one layer being the input to the next layer. This type of architecture is commonly used for deep learning tasks such as image and speech recognition, natural language processing, and more.
 
