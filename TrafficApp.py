@@ -11,4 +11,5 @@ image = Image.open(img)
 st.image(image, caption='test')
 
 resize_image = image.resize([30, 30])
-image = np.array(resize_image)
+array_image = np.array(resize_image)
+
