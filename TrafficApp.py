@@ -55,11 +55,33 @@ if img is not None:
     image = Image.open(img)
     st.sidebar.image(image, caption='Your image')
 
-    resize_image = image.resize([30, 30])
-    array_image = np.array(resize_image)
-    img_array = array_image.reshape((1,) + array_image.shape)
+    # Show original image size
+    st.sidebar.write("Original image size:", image.size[0], "x", image.size[1])
 
-    predict = np.argmax(model.predict(img_array), axis=-1)
-    st.write("Your image is " + classes[predict[0]])
+    # Resize and display image
+    resized_image = image.resize([300, 300])
+    img_placeholder = st.sidebar.empty()
+    img_placeholder.image(resized_image, caption='Resized image')
+
+    # Add slider for zooming
+    zoom = st.sidebar.slider("Zoom", 0.5, 2.0, 1.0, 0.1)
+    new_width = int(resized_image.width * zoom)
+    new_height = int(resized_image.height * zoom)
+
+    # Add slider for horizontal and vertical translation
+    h_translate = st.sidebar.slider("Horizontal Translation", -new_width // 2, new_width // 2, 0, 1)
+    v_translate = st.sidebar.slider("Vertical Translation", -new_height // 2, new_height // 2, 0, 1)
+
+    # Crop and display image
+    left = (new_width - 300) // 2 - h_translate
+    top = (new_height - 300) // 2 - v_translate
+    right = left + 300
+    bottom = top + 300
+    cropped_image = resized_image.crop((left, top, right, bottom))
+    img_array = np.array(cropped_image)
+    img_placeholder.image(cropped_image, caption='Cropped image')
+
+    predict = np.argmax(model.predict(np.expand_dims(img_array, axis=0)), axis=-1)
+    st.write("Your image is " + str(predict[0]))
 else:
     st.write("Please upload an image to get a prediction.")
