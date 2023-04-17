@@ -36,10 +36,10 @@ I highly recommend you using Google Colab to run the TrafficSign.ipynb file beca
 The source of our data is referred from Kaggle: [CLICK HERE](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?ref=morioh.com&utm_source=morioh.com)
 
 This data 43 classes, which stays for 43 types of traffic sign: 
-0:'Speed limit (20km/h)',
-1:'Speed limit (30km/h)',
-2:'Speed limit (50km/h)',
-3:'Speed limit (60km/h)',
+- `0`:'Speed limit (20km/h)',
+- `1`:'Speed limit (30km/h)',
+- `2`:'Speed limit (50km/h)',
+- `3`:'Speed limit (60km/h)',
 4:'Speed limit (70km/h)',
 5:'Speed limit (80km/h)',
 6:'End of speed limit (80km/h)',
