@@ -7,7 +7,7 @@ This project is a traffic sign classifier built using Convolutional Neurol Netwo
 
 Technologies I used:
   - [Tensorflow](https://www.tensorflow.org/) to build a deep learning model.
-  - [Sci-kit learn](https://www.tensorflow.org/) to preprocessing data.
+  - [Sci-kit learn](https://www.tensorflow.org/) to processing data.
   - [Streamlit](https://streamlit.io/) to build a simple demo web.
   - [Streamlit documentation](https://www.youtube.com/playlist?list=PLtqF5YXg7GLmCvTswG32NqQypOuYkPRUE) to learn the basic of streamlit.
 
