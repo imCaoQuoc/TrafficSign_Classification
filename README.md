@@ -3,7 +3,7 @@
 ---
 
 ### **INTRODUCTION**
-This Github repository contains a machine learning project on stroke prediction. The project includes data preprocessing, exploratory data analysis, feature engineering, and model selection. The aim of this project is to predict stroke based on factors such as gender, age, heart disease,...and provide a demo application using Streamlit.
+This project is a traffic sign classifier built using Convolutional Neurol Network (CNN). The model is trained on the German Traffic Sign Recognition Benchmark (GTSRB) dataset, which consists of over 50,000 labeled images of 43 different classes of traffic signs. The model is able to classify traffic signs and the demo application allows users to upload an image of a traffic sign and receive a prediction of its class. In the future, I want to improve the model so that it can classify traffic sign in real-time.
 
 Technologies I used:
   - [Tensorflow](https://www.tensorflow.org/) to build a deep learning model.
