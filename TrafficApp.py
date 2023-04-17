@@ -61,4 +61,4 @@ img_array = array_image.reshape((1,) + array_image.shape)
 st.write(img_array.shape)
 
 predict = np.argmax(model.predict(img_array), axis=-1)
-st.write(predict)
+st.write(classes[predict])
