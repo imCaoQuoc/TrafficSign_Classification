@@ -9,3 +9,6 @@ model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=F
 img = st.file_uploader("Upload your image")
 image = Image.open(img)
 st.image(image, caption='test')
+
+resize_image = image.resize([30, 30])
+image = np.array(resize_image)
