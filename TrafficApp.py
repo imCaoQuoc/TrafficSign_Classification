@@ -52,13 +52,11 @@ model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=F
 
 img = st.file_uploader("Upload your image")
 image = Image.open(img)
-st.image(image, caption='test')
+st.image(image, caption='Your image')
 
 resize_image = image.resize([30, 30])
 array_image = np.array(resize_image)
-st.write(array_image.shape)
 img_array = array_image.reshape((1,) + array_image.shape)
-st.write(img_array.shape)
 
 predict = np.argmax(model.predict(img_array), axis=-1)
 st.write(classes[predict[0]])
