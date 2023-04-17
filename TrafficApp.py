@@ -51,12 +51,15 @@ classes = { 0:'Speed limit (20km/h)',
 model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=False)
 
 img = st.file_uploader("Upload your image")
-image = Image.open(img)
-st.image(image, caption='Your image')
+if img is not None:
+    image = Image.open(img)
+    st.image(image, caption='Your image')
 
-resize_image = image.resize([30, 30])
-array_image = np.array(resize_image)
-img_array = array_image.reshape((1,) + array_image.shape)
+    resize_image = image.resize([30, 30])
+    array_image = np.array(resize_image)
+    img_array = array_image.reshape((1,) + array_image.shape)
 
-predict = np.argmax(model.predict(img_array), axis=-1)
-st.write(classes[predict[0]])
+    predict = np.argmax(model.predict(img_array), axis=-1)
+    st.write(classes[predict[0]])
+else:
+    st.write("Please upload an image to get a prediction.")
