@@ -7,7 +7,7 @@ This project is a traffic sign classifier built using Convolutional Neurol Netwo
 
 Technologies I used:
   - [Pillow](https://pypi.org/project/Pillow/) to load an image.
-  - [Numpy](https://numpy.org/) to 
+  - [Numpy](https://numpy.org/) to handle array.
   - [Tensorflow](https://www.tensorflow.org/) to build a deep learning model.
   - [Sci-kit learn](https://www.tensorflow.org/) to processing data.
   - [Streamlit](https://streamlit.io/) to build a simple demo web.
