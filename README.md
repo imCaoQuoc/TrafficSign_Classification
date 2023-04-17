@@ -80,8 +80,6 @@ This data 43 classes, which stays for 43 types of traffic sign:
 - `41`:'End of no passing',
 - `42`:'End no passing vehicle > 3.5 tons'
 
-Data has 5110 samples, where it has 201 missing values in column `bmi`.
-
 ---
 
 ### **NEURAL NETWORK**
