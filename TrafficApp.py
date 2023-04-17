@@ -13,3 +13,5 @@ st.image(image, caption='test')
 resize_image = image.resize([30, 30])
 array_image = np.array(resize_image)
 
+predict = np.argmax(model.predict(resize_image), axis=-1)
+st.write(predict)
