@@ -16,7 +16,7 @@ Technologies I used:
 ---
 
 ### **INSTALLATION**
-I highly recommend you using Google Colab to run the healthcare_stroke_prediction.ipynb file because it already has backages and libraries I use. But if you want to run on your local machine, following the instruction below.
+I highly recommend you using Google Colab to run the TrafficSign.ipynb file because it already has backages and libraries I use. But if you want to run on your local machine, following the instruction below.
   - Install essential libraries and packages:
   
   ```
@@ -26,7 +26,7 @@ I highly recommend you using Google Colab to run the healthcare_stroke_predictio
   - Run demo:
   
   ```
-  streamlit run demo.py
+  streamlit run TrafficApp.py
   ```
 
 ---
