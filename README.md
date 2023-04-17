@@ -102,6 +102,6 @@ You need to upload your image, it should be in PNG format.
 
 ### **RESULT**
 
-A deom will return a traffic sign's class.
+A demo will return a traffic sign's class.
 
 ![alt text](https://github.com/imCaoQuoc/Healthcare_stroke_prediction/blob/main/DATA/Screenshot%202023-03-31%20202705.png)
