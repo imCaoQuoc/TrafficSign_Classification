@@ -88,7 +88,7 @@ Data has 51869 labeled images, which splitted into 39239 images for training and
 
 Convolutional Neural Networks (CNNs) are a type of deep learning algorithm that have proven to be highly effective in image recognition, classification, and other computer vision tasks. They are inspired by the structure and function of the human visual system, and use a series of convolutional layers to automatically learn and extract features from input images. These features are then processed through a series of fully connected layers, which make predictions about the class of the input image. CNNs have achieved state-of-the-art results in a wide range of applications, including object recognition, facial recognition, and self-driving cars.
 
-In this repository, I provide an example of how to build a CNNs model using TensorFlow library in Python. The model is trained on an [image dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?ref=morioh.com&utm_source=morioh.com) and used to classify traffic signs.
+In this repository, I provide an example of how to build a CNNs model using TensorFlow library in Python. The model is training on an [image dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?ref=morioh.com&utm_source=morioh.com) and using to classify traffic signs.
 
 ---
 
