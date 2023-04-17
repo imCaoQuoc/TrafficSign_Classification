@@ -4,7 +4,7 @@ import streamlit as st
 from tensorflow import keras
 from PIL import Image
 
-model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5")
+model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=False)
 
 img = st.file_uploader("Upload your image")
 image = Image.open(img)
