@@ -53,7 +53,7 @@ model = tf.keras.models.load_model("D:\predict_traffic_sign\model.h5", compile=F
 img = st.sidebar.file_uploader("Upload your image")
 if img is not None:
     image = Image.open(img)
-    st.image(image, caption='Your image')
+    st.sidebar.image(image, caption='Your image')
 
     resize_image = image.resize([30, 30])
     array_image = np.array(resize_image)
