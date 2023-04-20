@@ -94,7 +94,7 @@ In this repository, I provide an example of how to build a CNNs model using Tens
 
 ### **DEMO**
 
-#### 1. Uploading image
+#### Uploading image
 
 You need to upload your image, it should be in PNG format. 
 
