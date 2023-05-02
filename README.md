@@ -104,4 +104,4 @@ You need to upload your image, it should be in PNG format.
 
 A demo will return a traffic sign's class.
 
-![alt text](https://github.com/imCaoQuoc/Healthcare_stroke_prediction/blob/main/DATA/Screenshot%202023-03-31%20202705.png)
+![alt text](https://github.com/imCaoQuoc/TrafficSign_Classification/blob/main/Screenshot%202023-05-02%20171839.png)
